@@ -7,7 +7,7 @@ services:
     volumes:
       - ./AppMySQL/:/AppMySQL
     ports:
-      - "3306:3306"
+      - "3306:3306" ## Added new feature2
     #command: mysql -u root -pinsofe cust_db < cust_data.dump
 
   python:
