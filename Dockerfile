@@ -1,4 +1,4 @@
-FROM mysql:5.7.25
+FROM mysql: any ## updated by Atif
 EXPOSE 3306
 ENV MYSQL_USER "root" 
 ENV MYSQL_DATABASE "cust_db" 
